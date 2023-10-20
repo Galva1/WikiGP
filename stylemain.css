@@ -1,0 +1,49 @@
+
+.top{
+    background-color:darkolivegreen;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btnMenu{
+    background-color: blue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;   
+     
+}
+
+.tituloMenu{
+    display: flex;
+    font-size: 45px;
+    border: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1200px;
+}
+
+.menu-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu-list li {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-list li a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    align-items: center;
+}
