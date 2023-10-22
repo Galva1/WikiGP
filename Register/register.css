@@ -4,6 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: yellow;
 }
 
 
@@ -13,4 +14,98 @@ body{
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px black;
+    background-color: blue;
+
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    background-color: #fff;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+}
+
+
+.login-button button{
+    border: none;
+    background-color: blueviolet;
+    padding: 0.4rem 1rem;
+    /*padding serve para regular o tamanho do botão*/
+    border-radius: 5px;
+    /*border radius serve para arredonar a borda*/
+    cursor: pointer;
+
+
+}
+
+.login-button button:hover{
+    background-color: violet;
+}
+
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#fff
+}
+
+.input-group{
+    display: flex;
+    /* ele ajuda os inputs ao tamanho do contener*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    /*flex warp ajusta os inputs paraa caberem dentro do cntener*/
+
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+/* arrumou o flex para deixar em colunas*/
+    margin-bottom: 1.1rem;
+/* cria um espaço que ajusta o tamanho das caixas de input*/
+
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    /* esses dois comandos aumentam o tamhno da caixa*/
+
+    border: none;
+    /* deixa a borda invisiviel*/
+    border-radius: 10px;
+    /*deixa a porta 10 px da caixa*/
+    box-shadow: 1px 1px 6px #00001c;
+    /* define a sombra da caixa*/
+}
+
+.input-box input:hover{
+    background-color:  #eeee75;
+
+
+}
+
+.input-box input:focus-visible{
+    outline: 3px solid chartreuse;
+}
+
+.input-box label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000da;
+    /*Muda o estilo que define cada label(cada caixa de texto é definido como uma label)*/
 }
