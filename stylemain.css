@@ -1,3 +1,6 @@
+body{
+    margin: 0px 0px;
+}
 
 .top{
     background-color:darkolivegreen;
@@ -16,12 +19,11 @@
 }
 
 .tituloMenu{
-    display: flex;
     font-size: 45px;
     border: none;
     margin-top: 1px;
     margin-bottom: 1px;
-    margin-right: 1200px;
+    padding-right: 65%;
 }
 
 .menu-list{
@@ -44,6 +46,12 @@
     text-decoration: underline;
 }
 
-h1{
-    align-items: center;
+.button{
+    background-color: aquamarine;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
