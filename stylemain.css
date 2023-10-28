@@ -48,11 +48,29 @@ body{
 
 .button{
     background-color: aquamarine;
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 50px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 10px 10px 5px 20px;
     text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-buttons{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.button:hover{
+    border: 5px solid black;
+    cursor: pointer;
+    padding: 0px;
 }
