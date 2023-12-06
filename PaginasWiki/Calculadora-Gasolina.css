@@ -7,57 +7,80 @@ html {
 }
 
 body{
-    display: inline;
-}
-.container {
-    display: flex;
+    display: block;
     height: 100vh;
-    
-}
-.left-bar {
-    width: 33%;
-    height: 100%;
-    background-color: #333;
+    width: 100vw;
 }
 
-.center-bar {
+#img-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.menu{
+    height: 10%;
+    width: 100%;
+    background-color: coral;
+}
+
+.right-card,  .left-card{
     width: 33%;
     height: 100%;
+}
+
+.center-card{
+    display: flex;
+    width: 34%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-card .center-menu{
+    height: 35%;
+    width: 30%;
+    background-color: #28272c;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    
+}
+
+#img-menu{
+    align-self: center;
+}
+
+.center-menu .form input{
+    width: 100%;
+    padding: 10 10;
+    margin: 5px 0 1px 0;
+    border: 0;
+}
+
+.center-menu p{
+    font-size: 20px;
+}
+
+.fotter{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #CCC; 
+    margin-top: 30px;
 }
 
-.menu-posto {
-    background-color: coral;
+.fotter button{
     height: 50px;
-    width: 35px;
-    /*align-self: center;*/
-
+    width: 100px;
 }
 
-.right-bar {
-    width: 33%;
-    height: 100%;
-    display: inline-flex;
-    background-color: #666;
-}
-
-.button-return {
-    display: flex;
-    width: 80px;
-    height: 60px;
-    text-decoration: none;
-}
-.button-return .box-button-return {
-    background-color: aqua;
-    width: 100%;
-    text-align: center;
-       
-}
-
-.text-button-return {
-    font: bold;
-    padding-top: 20px;
-}
