@@ -49,7 +49,7 @@ body{
 .center-card .center-menu{
     height: 35%;
     width: 30%;
-    background-color: #28272c;
+    background-color: #142333;
     padding: 50px 50px;
     display: flex;
     flex-direction: column;
@@ -59,6 +59,7 @@ body{
 
 #img-menu{
     align-self: center;
+    margin-bottom: 10px;
 }
 
 .center-menu .form input{
