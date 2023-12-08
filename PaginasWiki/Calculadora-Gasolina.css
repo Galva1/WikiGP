@@ -21,17 +21,69 @@ body{
 
 .container {
     display: flex;
-    height: 90%;
+    height: 95%;
     width: 100%;
     justify-content: center;
     
 }
 
 .menu{
-    height: 10%;
+    display: flex;
+    height: 5%;
     width: 100%;
     background-color: coral;
 }
+
+.menu .menu-left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.menu .menu-left a{
+    height: 60%;
+    width: 4%;
+}
+
+.menu .menu-left a .icon-menu{
+    height: 100%;
+    width: 100%;
+    margin: 10px 10px 0 10px;
+    background-color: aquamarine;
+}
+
+.menu .menu-left span{
+    margin: 16px 0 0 16px;
+}
+
+.menu .menu-right{
+    width: 50%;
+    height: 100%;
+}
+
+.menu .menu-right ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.menu .menu-right li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.menu-right a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-right a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
 
 .right-card,  .left-card{
     width: 33%;
